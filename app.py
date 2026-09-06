@@ -32,6 +32,8 @@ import pickle as p
 import joblib as jl
 import nltk
 import pandas as pd
+import numpy as np
+
 
 st.title("Movie Recommendation System")
 
