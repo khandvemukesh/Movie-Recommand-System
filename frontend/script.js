@@ -1,5 +1,5 @@
 // Flask API URL 
-const API_URL = "https://your-flask-api.vercel.app";
+const API_URL = "https://movie-recommand-system.vercel.app";
 // HTML elements 
 const movieSelect = document.getElementById("movieSelect");
 const recommendBtn = document.getElementById("recommendBtn");

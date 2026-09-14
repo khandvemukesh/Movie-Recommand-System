@@ -136,4 +136,4 @@ def recommend_movies():
     return jsonify({ "movie": movie_name, "recommendations": recommended_movies })
 
 if __name__ == "__main__":
-    app.run(host="https://your-flask-api.vercel.app", debug=True)
+    app.run(host="https://movie-recommand-system.vercel.app", debug=True)
