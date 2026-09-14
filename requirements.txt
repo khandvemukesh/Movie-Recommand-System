@@ -1,5 +1,12 @@
-streamlit
-pandas
+# streamlit
+# pandas
+# scikit-learn
+# nltk
+# numpy
+
+Flask 
+gunicorn 
+pandas 
+numpy 
+joblib 
 scikit-learn
-nltk
-numpy

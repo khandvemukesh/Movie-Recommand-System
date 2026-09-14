@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Recommendation System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <h1>🎬 Movie Recommendation System</h1>
+            <p class="subtitle"> Select a movie and discover similar movies </p>
+            <div class="form-group"> <label for="movieSelect"> Select Movie </label> <select id="movieSelect">
+                    <option value="">Loading movies...</option>
+                </select> </div> <button id="recommendBtn"> Recommend Movies </button>
+            <div id="loading" class="loading hidden"> Finding recommendations... </div>
+            <div id="error" class="error hidden"></div>
+            <div id="result" class="result hidden">
+                <h2>Recommended Movies</h2>
+                <div id="recommendations" class="movie-list"></div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+
+</html>
