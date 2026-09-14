@@ -1,5 +1,5 @@
 // Flask API URL 
-const API_URL = "http://127.0.0.1:5001";
+const API_URL = "https://your-flask-api.vercel.app";
 // HTML elements 
 const movieSelect = document.getElementById("movieSelect");
 const recommendBtn = document.getElementById("recommendBtn");
